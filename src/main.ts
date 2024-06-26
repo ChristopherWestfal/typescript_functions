@@ -26,5 +26,5 @@ console.log(removedNumbers);
 const removedByDivisible = removedNumbers.filter(num => num % 4 !== 0);
 console.log(removedByDivisible);
 const reducedArrayBonusTask = removedByDivisible.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-console.log(reducedArrayBonusTask)
+console.log(reducedArrayBonusTask);
 
